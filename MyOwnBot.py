@@ -158,4 +158,7 @@ async def streamers_info(inter, streamer_nick : str):
 
 with open('own_token.txt', 'r', encoding='utf-8') as file:
     token = file.readline()
-bot.run(token)
+
+   
+if __name__ == '__main__':
+    bot.run(token)
